@@ -1,0 +1,276 @@
+* {
+    
+}
+
+body {
+    background-color: #d1d8e0;
+    background-image: url("/images/angelina-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+#wrapper { /* VIDLJIVA JE: 990px */
+    width: 960px;
+    margin: 0px auto;
+    padding: 15px;
+    border: 1px solid #353535;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+#header {
+    background-color: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    overflow: hidden; /* DA RODITELJ ZNA ZA FLOATNU DJECU */
+    height: 50px;
+}
+
+.logo {
+    
+    
+}
+.logo-img {
+    width: 80px;
+    float: left;
+    position: relative;
+    bottom: 5px;
+}
+.head-right {
+    float: right;
+
+}
+.head-right p {
+    color: black;
+    font-size: 11px;
+    text-shadow: none;
+    font-family: 'Lobster', cursive;
+    width: 280px;
+    position: relative;
+    bottom: 85px;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+
+
+.head-center h1 {
+    position: relative;
+    left: 300px;
+    bottom: 15px;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+.head-center a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    border: 1px solid #e4e2e2;
+    color: white;
+    padding: 5px;
+
+}
+#nav ul {
+    
+
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+    right: 45px;
+
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: none;
+    background-color: #333333;
+    border: 1px solid #f1f1f1;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+#nav a:hover {
+    background-color: #EDD0DD;
+    color: black;
+}
+#nav a:link {
+    /* TODO */
+}
+#nav a:visited {
+    /* TODO */
+}
+#nav a:active {
+   /* TODO */
+}
+
+
+
+
+#nav-left-navbar {
+    float: left;
+}
+#nav-right-navbar {
+    float: right;
+
+}
+.nav-right-icons {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    
+}
+.nav-right-icons:hover {
+    transition: transform .2s; /* Animation */
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+#main {
+    width: 600px;
+    float: left;
+    font-size: 16px;
+}
+#main h2 {
+    text-align: center;
+    background-color: #f1f1f1;
+    color: orangered;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #e4e2e2;
+}
+#main p {
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 10px;
+}
+.main-text {
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: black;
+    border: 1px solid #f0efef;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-images {
+
+}
+.main-img {
+    width: 245px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    padding: 5px;
+    margin: 15px;
+
+}
+.main-img:hover { /* KAD DOĐE SA MIŠOM NA SLIKU */
+    opacity: 2;
+    transition: transform .2s; /* Animacija  */
+    transform: scale(1.2);
+    z-index: 20;
+    transition: transform .2s; /* Animation */
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.main-img-text {
+    position: absolute;
+    z-index: 2;
+    /* right: 0; */
+    left: 490px;
+    top: 430px;
+    /* bottom: 0; */
+    color: #2f302a;
+    background-color: #f1f1f1;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#sidebar {
+    width: 340px;
+    float: right;
+    font-size: 16px;
+    
+}
+#sidebar h2 {
+    text-align: center;
+    background-color: #f1f1f1;
+    color: orangered;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #e4e2e2;
+}
+#sidebar p {
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 10px;
+    width: 290px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    width: 100%;
+    border: 1px solid #e4e2e2;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+#footer h2 {
+    text-align: center;
+    color: orangered;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hthc-clear {
+    clear: both;
+}
