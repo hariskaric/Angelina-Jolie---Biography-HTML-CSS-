@@ -96,9 +96,9 @@ body {
     text-decoration: none;
     color: #545353;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 15px;
     text-shadow: none;
-    background-color: #f1f1f1;
+    background-color: #fbf8f8;
     border: 1px solid #f1f1f1;
     border-radius: 16px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -173,7 +173,7 @@ body {
 
 }
 .main-img {
-    width: 245px;
+    width: 249px;
     border: 1px solid #eaeaea;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -235,7 +235,9 @@ body {
     padding: 10px;
     width: 290px;
 }
-
+.side-img {
+    width: 285px;
+}
 
 
 
@@ -245,15 +247,64 @@ body {
 
 
 #footer {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: black;
+    border-top: 1px solid #e4e2e2;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
     width: 100%;
     border: 1px solid #e4e2e2;
     font-size: 16px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+    overflow: hidden;
 }
-#footer h2 {
-    text-align: center;
+.footer-text {
     color: orangered;
-    padding: 5px;
+    position: relative;
+    right: 160px;
+    font-size: 1em;
+    float: right;
+    margin-right: 25px;
+}
+.footer-icons {
+    float: left;
+}
+.footer-icons ul {
+
+}
+.footer-icons li {
+    display: inline-block;
+    list-style: none;
+
+}
+.footer-icons a {
+    text-decoration: none;
+    position: relative;
+    left: 122px;
+    padding: 12px;
+    margin: 15px;
+    font-size: 1em;
+    color: orangered;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+.footer-icons a:hover {
+    background-color: orangered;
+    color: white;
+    
+}
+.footer-icons-social {
+   padding: 12px;
+   width: 100px;
+   margin: 8px;
+   color: orangered;
+   word-spacing: 17px;
+   font-size: 20px;
+}
+.footer-icons-social a {
+    color: orangered;
 }
 
 
@@ -270,7 +321,14 @@ body {
 
 
 
-
+.coming-soon {
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 1px solid #f0efef;
+    border-radius: 12px;
+    position: relative;
+    left: 250px;
+}
 
 
 .hthc-clear {
