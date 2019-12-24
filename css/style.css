@@ -10,7 +10,7 @@ body {
     font-family: 'Maven Pro', sans-serif;
     font-size: 13px;
 }
-#wrapper { /* VIDLJIVA JE: 990px */
+#wrapper {
     width: 960px;
     margin: 0px auto;
     padding: 15px;
@@ -18,15 +18,12 @@ body {
     border-radius: 10px;
     background-color: white;
 }
-
-
 #header {
     padding: 5px;
     margin-bottom: 5px;
-    overflow: hidden; /* DA RODITELJ ZNA ZA FLOATNU DJECU */
+    overflow: hidden;
     height: 50px;
 }
-
 .logo {
     
     
@@ -42,7 +39,6 @@ body {
 
 }
 .head-right p {
-    color: black;
     font-size: 11px;
     text-shadow: none;
     font-family: 'Lobster', cursive;
@@ -54,9 +50,6 @@ body {
     letter-spacing: 3px;
     word-spacing: 2px;
 }
-
-
-
 .head-center h1 {
     position: relative;
     left: 300px;
@@ -64,22 +57,16 @@ body {
     font-size: 30px;
     font-family: 'Great Vibes', cursive;
     color: black;
-    word-spacing: 10px;
     letter-spacing: 4px;
 }
 .head-center a {
     text-decoration: none;
-    color: white;
 }
 
 #nav {
-    background-color: #fefefe;
     border-radius: 12px;
-    border-bottom: 1px solid #f0efef;
     box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-    color: white;
     padding: 5px;
-
 }
 #nav ul {
     
@@ -119,10 +106,6 @@ body {
 #nav a:active {
    /* TODO */
 }
-
-
-
-
 #nav-left-navbar {
     float: left;
 }
@@ -137,11 +120,9 @@ body {
     
 }
 .nav-right-icons:hover {
-    transition: transform .2s; /* Animation */
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s; /* Animacija  */
+    transform: scale(1.2); /* Napomena: Ako je zoom previše velik, otići će iz preglednosti elemenata */
 }
-
-
 #main {
     width: 600px;
     float: left;
@@ -181,7 +162,7 @@ body {
     margin: 15px;
 
 }
-.main-img:hover { /* KAD DOÄE SA MIÅ OM NA SLIKU */
+.main-img:hover {
     opacity: 2;
     transform: scale(1.1);
     z-index: 20;
@@ -220,16 +201,6 @@ body {
 .main-img-left {
     float: left;
 }
-
-
-
-
-
-
-
-
-
-
 #sidebar {
     width: 340px;
     float: right;
@@ -246,21 +217,12 @@ body {
     box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 #sidebar p {
-    
     padding: 10px;
     width: 290px;
 }
 .side-img {
     width: 285px;
 }
-
-
-
-
-
-
-
-
 #footer {
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
@@ -302,25 +264,6 @@ body {
 .footer-developer {
     color: orangered;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-video {
-    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-    border: 1px solid #f0efef;
-    border-radius: 12px;
-}
 .coming-soon {
     width: 450px;
     box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
@@ -329,8 +272,6 @@ video {
     position: relative;
     left: 250px;
 }
-
-
 .hthc-clear {
     clear: both;
 }
