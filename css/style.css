@@ -182,13 +182,28 @@ body {
     margin: 15px;
 
 }
-.main-img:hover { /* KAD DOĐE SA MIŠOM NA SLIKU */
+.main-img:hover { /* KAD DOÄE SA MIÅ OM NA SLIKU */
     opacity: 2;
-    transition: transform .2s; /* Animacija  */
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 20;
-    transition: transform .2s; /* Animation */
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    -webkit-animation: flash .75s;
+    animation: flash .75s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 .main-img-text {
     position: absolute;
@@ -203,8 +218,9 @@ body {
     border-radius: 10px;
     font-size: 22px;
 }
-
-
+.main-img-left {
+    float: left;
+}
 
 
 
@@ -261,49 +277,30 @@ body {
     overflow: hidden;
 }
 .footer-text {
-    color: orangered;
     position: relative;
-    right: 160px;
+    right: 100px;
+    top: 10px;
     font-size: 1em;
     float: right;
     margin-right: 25px;
 }
+.footer-text a {
+    text-decoration: none;
+}
 .footer-icons {
     float: left;
-}
-.footer-icons ul {
-
-}
-.footer-icons li {
-    display: inline-block;
-    list-style: none;
-
-}
-.footer-icons a {
-    text-decoration: none;
-    position: relative;
-    left: 122px;
-    padding: 12px;
-    margin: 15px;
-    font-size: 1em;
-    color: orangered;
-    border: 2px solid whitesmoke;
-    border-radius: 8px;
-}
-.footer-icons a:hover {
-    background-color: orangered;
-    color: white;
-    
 }
 .footer-icons-social {
    padding: 12px;
    width: 100px;
    margin: 8px;
-   color: orangered;
    word-spacing: 17px;
    font-size: 20px;
 }
 .footer-icons-social a {
+   
+}
+.footer-developer {
     color: orangered;
 }
 
@@ -320,7 +317,11 @@ body {
 
 
 
-
+video {
+    box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 1px solid #f0efef;
+    border-radius: 12px;
+}
 .coming-soon {
     width: 450px;
     box-shadow: 0 4px 8px 0 rgba(156, 143, 143, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
